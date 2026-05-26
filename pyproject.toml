@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "tokensense"
+version = "0.1.0"
+description = "Tokenization awareness for AI developers and users"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = []
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.20.0"]
+openai = ["tiktoken>=0.5.0", "openai>=1.0.0"]
+all = ["anthropic>=0.20.0", "tiktoken>=0.5.0", "openai>=1.0.0"]
