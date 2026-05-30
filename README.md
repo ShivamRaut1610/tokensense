@@ -234,7 +234,7 @@ Every merged PR receives a public shoutout. Every contributor is listed in [CONT
 
 ## License
 
-MIT — free to use, modify, and distribute.
+MIT — free to use, modify, and distribute
 
 ---
 
